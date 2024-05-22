@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!--  <link rel="icon" type="image/svg+xml" href="/favicon.svg" /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homework 11</title>
     <link rel="stylesheet" href="./css/styles.css" />
@@ -11,7 +10,7 @@
     <form class="search-form" id="search-form">
       <input
         type="text"
-        name="searchQuery"
+        name="query"
         autocomplete="off"
         placeholder="Search images..."
       />
@@ -20,10 +19,9 @@
 
     <div class="gallery"></div>
 
-    <div class="preloader is-hidden"></div>
-    <span class="loader"></span>
+    <!--  <div class="preloader is-hidden"></div> -->
+    <span class="loader">Loading</span>
+
     <script type="module" src="./main.js"></script>
-    <!--  <script type="module" src="./pixabay-api.js"></script>
-    <script type="module" src="./render-functions.js"></script> -->
   </body>
 </html>
