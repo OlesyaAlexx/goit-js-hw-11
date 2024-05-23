@@ -173,9 +173,9 @@ button {
 }
 
 .loader {
+  display: none;
   font-size: 48px;
   font-weight: 600;
-  display: inline-block;
   letter-spacing: 2px;
   font-family: 'Arial, Helvetica', sans-serif;
   color: #000;
